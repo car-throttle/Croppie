@@ -988,14 +988,14 @@
             startY = Math.abs(top);
             top = 0;
         }
-        if (right > self._originalImageWidth) {
+        /*if (right > self._originalImageWidth) {
             width = self._originalImageWidth - left;
             outWidth = width;
         }
         if (bottom > self._originalImageHeight) {
             height = self._originalImageHeight - top;
             outHeight = height;
-        }
+        }*/
 
         if (outputRatio !== 1) {
             startX *= outputRatio;
